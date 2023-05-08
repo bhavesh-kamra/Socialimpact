@@ -43,7 +43,7 @@ function App() {
         <Want />
         <Myfooter />
         <BackToTop />
-        {/* <Preloader /> */}
+        <Preloader />
       </div>
     </>
   );

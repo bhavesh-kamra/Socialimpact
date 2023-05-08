@@ -8,15 +8,17 @@ const Employee = () => {
   return (
     <section>
       <Container>
-        <div className=" text-start  m-auto py-5 mx_570">
-          <h2 className=" fw_800 ff_inter fs_2xl clr_mainblack">
-            Employee Giving
-          </h2>
-          <p className="fw_400 ff_inter fs_md clr_grey2 pb-lg-5">
-            Employee Giving leverages the power of employee charitable
-            donations, volunteerism, and mentorship to help social sector
-            partners reach those in need.
-          </p>
+        <div className=' py-lg-5'>
+          <div className=" text-start  m-auto py-5 mx_570">
+            <h2 className=" fw_800 ff_inter fs_2xl clr_mainblack">
+              Employee Giving
+            </h2>
+            <p className="fw_400 ff_inter fs_md clr_grey2 pb-lg-5">
+              Employee Giving leverages the power of employee charitable
+              donations, volunteerism, and mentorship to help social sector
+              partners reach those in need.
+            </p>
+          </div>
         </div>
         <Row className=" justify-content-between">
           <Col data-aos="fade-right" lg={4} sm={6}>
